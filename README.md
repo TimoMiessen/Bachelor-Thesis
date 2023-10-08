@@ -1,4 +1,4 @@
-# An Analysis of possible bias against women of color in commercial Image Content Moderation systems
+# An Analysis of Possible Bias Against Women of Color in Commercial Image Content Moderation Systems
 
 Type: Bachelor's Thesis
 
