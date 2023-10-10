@@ -15,7 +15,8 @@ Author: Timo Miessen
 ## Table of Content
 
 - Summary
-- Working with the Image Content Moderation systems' API
+- Working with the repo
+- Reproducing Results
 
 ## Summary
 
