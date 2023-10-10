@@ -32,8 +32,8 @@ The experiment was conducted using Python3 version 3.11
 ### Data Aquisition
 All 4 systems used in the study come with pre-trained models. These models are accessible via the specific APIs provided by the respective developers Amazon, Google, Microsoft and Sightengine.
 To engage with the APIs and utilize the models, sample codes have been provided by the developers. These codes serve as an interface to send images for analysis to the models.
-In an advanced step, these provided sample codes have been modified and expanded to ensure a more efficient interaction with the APIs. This enhancement allows not just the submission of individual images but entire directories or folders for the analysis. 
-To generate
+In an advanced step, these provided sample codes have been modified and expanded to ensure a more efficient interaction with the APIs. This enhancement allows not just the submission of individual images but entire directories or folders for the analysis. The respective files are "amazon.py", "google.py", "microsoft.py" and "sightengine.py".
+To generate the data, download the image set provided via Google Drive (https://drive.google.com/drive/folders/1OrMFmdRLCAngOfNO5r1uO2tG5787cicy?usp=sharing). Then simply adjust the codes by inserting the directory the images are stored in.
 
 ### Data Analysis
 Upon execution of these adjusted codes, the generated CSV files were imported into an Excel file that catalogues all image instances, characterised with the variables defined in Table 3.1. All labels, with the exception of the "Suggestive / Racy" label, were removed to maintain the focus of the study. The analysis was then continued within these individual Excel files. The distinct probabilities provided by the models were converted into binary values (0 or 1) based on various threshold values, as detailed in Section 3.4. Subsequently, group-specific confusion matrices were manually constructed, serving as the foundation upon which performance metrics were calculated. 
